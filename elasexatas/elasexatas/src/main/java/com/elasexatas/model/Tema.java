@@ -25,7 +25,7 @@ public class Tema {
 	
 	@NotBlank(message = "O atributo título é obrigatório.")
 	@Size(min = 5, max = 100, message = "O atributo título deve conter no mínimo 05 e no máximo 100 caracteres")
-	private String titulo;
+	private String tituloTema;
 	
 	@NotNull(message = "O atributo descrição é opcional")
 	@Size(min = 10, max = 500, message = "O atributo descrição deve conter no mínimo 10 e no máximo 500 caracteres")
@@ -45,12 +45,12 @@ public class Tema {
 		this.id = id;
 	}
 
-	public String getTitulo() {
-		return titulo;
+	public String getTituloTema() {
+		return tituloTema;
 	}
 
-	public void setTitulo(String titulo) {
-		this.titulo = titulo;
+	public void setTituloTema(String tituloTema) {
+		this.tituloTema = tituloTema;
 	}
 
 	public String getDescricao() {

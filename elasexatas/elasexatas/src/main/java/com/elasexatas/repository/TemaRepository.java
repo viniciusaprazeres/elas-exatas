@@ -11,6 +11,6 @@ import com.elasexatas.model.Tema;
 @Repository
 public interface TemaRepository extends JpaRepository<Tema, Long> {
 	
-	public List<Tema> findAllByTituloContainingIgnoreCase(@Param("titulo") String titulo);
+	public List<Tema> findAllByTituloTemaContainingIgnoreCase(@Param("titulo") String titulo);
 
 }
