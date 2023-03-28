@@ -6,10 +6,6 @@
 * [![Java][Java]][Java-url] (v 17.0)
 * [![Spring][Spring]][Spring-url] (v 2.7.3)
 * [![React][React]][React-url] (v 16.17.0)
-* [![React Native][React Native]][React Native-url] (v 16.17.0)
-* [![Azure][Azure]][Azure-url] 
-
-
 
 
 <details>
