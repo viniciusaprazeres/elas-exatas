@@ -1,13 +1,20 @@
 package com.elasexatas.model;
 
+import java.util.List;
+
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
+import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @Entity
 @Table(name = "tb_usuarios")
@@ -17,21 +24,23 @@ public class Usuario {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
-	@NotBlank(message = "O atributo nome é Obrigatório!")
-	@Size(min = 5, max = 100, message = "O atributo nome deve conter no mínimo 05 e no máximo 100 caracteres")
+	@NotNull(message = "O nome é obrigatório!")
 	private String nome;
 	
-	@NotBlank(message = "O atributo usuário é Obrigatório!")
-	@Size(min = 5, max = 100, message = "O atributo usuário deve conter no mínimo 05 e no máximo 100 caracteres")
+	@NotNull(message = "O usuário é obrigatório!")
+	@Email(message = "O usuário deve ser um e-mail válido.")
 	private String usuario;
 	
-	@NotBlank(message = "O atributo senha é Obrigatório!")
-	@Size(min = 8, max = 24, message = "O atributo senha deve conter no mínimo 08 e no máximo 24 caracteres")
+	@NotBlank(message = "A senha é obrigatório!")
+	@Size(min = 8, message = "A senha deve conter no mínimo 08 caracteres")
 	private String senha;
 	
-	@NotNull(message = "O link da imagem é Opcional!")
-	@Size(min = 5, max = 255, message = "O atributo senha deve conter no mínimo 05 e no máximo 255 caracteres")
+	@Size(max = 5000, message = "O link da foto deve conter no máximo 5000 caracteres")
 	private String foto;
+	
+	@OneToMany(mappedBy = "usuario", cascade = CascadeType.REMOVE)
+	@JsonIgnoreProperties("usuario")
+	private List<Postagem> postagem;
 
 	public Long getId() {
 		return id;
@@ -72,6 +81,16 @@ public class Usuario {
 	public void setFoto(String foto) {
 		this.foto = foto;
 	}
+
+	public List<Postagem> getPostagem() {
+		return postagem;
+	}
+
+	public void setPostagem(List<Postagem> postagem) {
+		this.postagem = postagem;
+	}
+	
+	
 	
 
 }
