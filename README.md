@@ -7,9 +7,23 @@
 * [![Spring][Spring]][Spring-url] (v 2.7.3)
 * [![React][React]][React-url] (v 16.17.0)
 * [![MySQL][MySQL]][MySQL-url]
+* [![Docker][Docker]][Docker-url]  
 * [![GitHub][GitHub]][GitHub-url]
 * [![Heroku][Heroku]][Heroku-url]
 
+
+ ### Autores
+<!--
+[<img src="https://i.imgur.com/HmOXbZT.jpg" width=100><br><sub> Elizangela Xavier</sub>](https://github.com/ElizangelaXavierS)
+[<img src="https://i.imgur.com/HmOXbZT.jpg" width=100><br><sub>Elizangela Xavier</sub>](https://github.com/ElizangelaXavierS) 
+[<img src="https://i.imgur.com/HmOXbZT.jpg" width=100><br><sub>Elizangela Xavier</sub>](https://github.com/ElizangelaXavierS)
+[<img src="https://i.imgur.com/HmOXbZT.jpg" width=100><br><sub>Samuel Cavelho</sub>](https://github.com/samuelnovaiscavelho)
+[<img src="https://i.imgur.com/HmOXbZT.jpg" width=100><br><sub>Samuel Cavelho</sub>](https://github.com/samuelnovaiscavelho)
+[<img src="https://i.imgur.com/HmOXbZT.jpg" width=100><br><sub>Samuel Cavelho</sub>](https://github.com/samuelnovaiscavelho)
+[<img src="https://i.imgur.com/HmOXbZT.jpg" width=100><br><sub>Samuel Cavelho</sub>](https://github.com/samuelnovaiscavelho)
+
+460x460
+-->
 
 
 <details>
@@ -31,9 +45,10 @@ Seu objetivo é conectar mulheres de todas as idades, que atuam ou têm interess
 [GitHub-url]: https://docs.github.com/pt 
 [Heroku]: https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white
 [Heroku-url]: https://devcenter.heroku.com/categories/reference
- 
 [MySQL]:  https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white
-[MySQL-url]: https://dev.mysql.com/doc/
+[MySQL-url]: https://dev.mysql.com/doc/ 
+[Docker]: https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white
+[Docker-url]: https://docs.docker.com/
  
  
 
