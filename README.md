@@ -6,7 +6,10 @@
 * [![Java][Java]][Java-url] (v 17.0)
 * [![Spring][Spring]][Spring-url] (v 2.7.3)
 * [![React][React]][React-url] (v 16.17.0)
+* [![MySQL][MySQL]][MySQL-url]
 * [![GitHub][GitHub]][GitHub-url]
+* [![Heroku][Heroku]][Heroku-url]
+
 
 
 <details>
@@ -24,7 +27,14 @@ Seu objetivo é conectar mulheres de todas as idades, que atuam ou têm interess
 [React-url]: https://reactjs.org/
 [Spring]: https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white
 [Spring-url]: https://spring.io/projects/spring-framework
- 
 [GitHub]: https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
-[GitHub-url]: https://docs.github.com/pt
+[GitHub-url]: https://docs.github.com/pt 
+[Heroku]: https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white
+[Heroku-url]: https://devcenter.heroku.com/categories/reference
+ 
+[MySQL]:  https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white
+[MySQL-url]: https://dev.mysql.com/doc/
+ 
+ 
+
  
