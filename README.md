@@ -2,7 +2,7 @@
 
 <img align="center" alt="Elas_Exatas" height="225" width="250" src="https://i.imgur.com/9QguBVp.png">
 
-## Stack tecnologico
+## Tecnologias e Ferramentas Utilizadas
 * [![Java][Java]][Java-url] (v 17.0)
 * [![Spring][Spring]][Spring-url] (v 2.7.3)
 * [![React][React]][React-url] (v 16.17.0)
