@@ -12,7 +12,10 @@
 * [![Heroku][Heroku]][Heroku-url]
 
 
- ### Autores
+## Arquitetura de Solução 
+<img align="center" alt="Arquitetura-Solucao" height="550" width="1000" src="https://i.imgur.com/58rBtKF.png">
+
+### Autores
 <!--
 [<img src="https://i.imgur.com/HmOXbZT.jpg" width=100><br><sub> Elizangela Xavier</sub>](https://github.com/ElizangelaXavierS)
 [<img src="https://i.imgur.com/HmOXbZT.jpg" width=100><br><sub>Elizangela Xavier</sub>](https://github.com/ElizangelaXavierS) 
